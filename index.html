@@ -11,13 +11,17 @@
             border: 1px solid #ddd;
             border-radius: 8px;
             padding: 16px;
-            margin: 16px 0;
+            margin: 16px auto;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            max-width: 600px; /* Limita el ancho máximo de la tarjeta */
         }
         .card img {
-            border-radius: 50%;
-            width: 100px;
-            height: 100px;
+            border-radius: 8px;
+            width: 150px;
+            height: 150px;
+            margin-right: 16px;
         }
         .card h3 {
             margin: 0;
@@ -75,9 +79,11 @@
         <section id="perfil">
             <h2 style="color: #4CAF50;">Perfil</h2>
             <div class="card">
-                <img src="https://via.placeholder.com/100" alt="">
-                <h3>aaa</h3>
-                <p>aaaaa</p>
+                <img src="src\amador.png" alt="Foto de perfil">
+                <div>
+                    <h3>Pedro Sánchez</h3>
+                    <p>Pedro Sánchez es el Presidente del Gobierno de España. Está comprometido con los objetivos de desarrollo sostenible y trabaja para implementar la Agenda 2030 en España.</p>
+                </div>
             </div>
         </section>
         <section id="contacto">
