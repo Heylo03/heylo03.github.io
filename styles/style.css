@@ -65,6 +65,23 @@ section {
 .objective-list li {
     padding: 8px 0;
 }
+/* Estilo para las imágenes */
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.marine-image {
+    width: 100%;
+    max-width: 800px; /* Limita el tamaño máximo de la imagen */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.marine-image + p {
+    font-style: italic;
+    color: #555;
+}
 
 /* Cards */
 .card {
