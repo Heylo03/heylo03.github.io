@@ -5,95 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agenda 2030</title>
     <link rel="stylesheet" href="styles/style.css">
-    <style>
-        .card {
-            background-color: #f9f9f9;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            padding: 16px;
-            margin: 16px auto;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            display: flex;
-            align-items: center;
-            max-width: 600px; /* Limita el ancho máximo de la tarjeta */
-        }
-        .card img {
-            border-radius: 8px;
-            width: 150px;
-            height: 150px;
-            margin-right: 16px;
-        }
-        .card h3 {
-            margin: 0;
-            color: #4CAF50;
-        }
-        .card p {
-            margin: 8px 0;
-        }
-    </style>
+    <!-- Añadir una fuente web para mejorar la tipografía -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header style="background-color: #4CAF50; color: white; padding: 1em;">
+    <header class="header">
         <h1>Agenda 2030</h1>
         <nav>
-            <ul style="list-style-type: none; padding: 0;">
-                <li style="display: inline; margin-right: 1em;"><a href="#inicio" style="color: white; text-decoration: none;">Inicio</a></li>
-                <li style="display: inline; margin-right: 1em;"><a href="#acerca" style="color: white; text-decoration: none;">Acerca de</a></li>
-                <li style="display: inline; margin-right: 1em;"><a href="#objetivos" style="color: white; text-decoration: none;">Objetivos</a></li>
-                <li style="display: inline; margin-right: 1em;"><a href="#contacto" style="color: white; text-decoration: none;">Contacto</a></li>
+            <ul class="nav-list">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#acerca">Acerca de</a></li>
+                <li><a href="#objetivos">Objetivos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
-    <main style="padding: 2em;">
+
+    <main>
         <section id="inicio">
-            <h2 style="color: #4CAF50;">Inicio</h2>
+            <h2>Inicio</h2>
             <p>Bienvenido al sitio web de la Agenda 2030. Conozca los objetivos globales para el desarrollo sostenible.</p>
         </section>
+
         <section id="acerca">
-            <h2 style="color: #4CAF50;">Acerca de</h2>
-            <p>La Agenda 2030 es una iniciativa global para lograr el desarrollo sostenible para el año 2030. Fue adoptada por todos los Estados Miembros de las Naciones Unidas en 2015 y proporciona un plan compartido para la paz y la prosperidad de las personas y el planeta, ahora y en el futuro.</p>
+            <h2>Acerca de</h2>
+            <p>La Agenda 2030 es una iniciativa global para lograr el desarrollo sostenible para el año 2030...</p>
         </section>
-        <section id="objetivos">
-            <h2 style="color: #4CAF50;">Objetivos</h2>
-            <p>Aquí están los 17 Objetivos de Desarrollo Sostenible (ODS) de la Agenda 2030:</p>
-            <ul>
-                <li>Fin de la Pobreza</li>
-                <li>Hambre Cero</li>
-                <li>Salud y Bienestar</li>
-                <li>Educación de Calidad</li>
-                <li>Igualdad de Género</li>
-                <li>Agua Limpia y Saneamiento</li>
-                <li>Energía Asequible y No Contaminante</li>
-                <li>Trabajo Decente y Crecimiento Económico</li>
-                <li>Industria, Innovación e Infraestructura</li>
-                <li>Reducción de las Desigualdades</li>
-                <li>Ciudades y Comunidades Sostenibles</li>
-                <li>Producción y Consumo Responsables</li>
-                <li>Acción por el Clima</li>
-                <li>Vida Submarina</li>
-                <li>Vida de Ecosistemas Terrestres</li>
-                <li>Paz, Justicia e Instituciones Sólidas</li>
-                <li>Alianzas para Lograr los Objetivos</li>
-            </ul>
-        </section>
+
+<section id="objetivos">
+    <h2>Objetivos</h2>
+    <p>Aquí está uno de los Objetivos de Desarrollo Sostenible (ODS) de la Agenda 2030:</p>
+    <ul class="objective-list">
+        <li><a href="vida-submarina.html" class="marine-link">Vida Submarina</a></li>
+    </ul>
+</section>
+
+
         <section id="perfil">
-            <h2 style="color: #4CAF50;">Perfil</h2>
+            <h2>Perfil</h2>
             <div class="card">
-                <img src="src\amador.png" alt="Foto de perfil">
+                <img src="src/arbol.png" alt="Foto de perfil">
                 <div>
                     <h3>Pedro Sánchez</h3>
-                    <p>Pedro Sánchez es el Presidente del Gobierno de España. Está comprometido con los objetivos de desarrollo sostenible y trabaja para implementar la Agenda 2030 en España.</p>
+                    <p>Pedro Sánchez es el Presidente del Gobierno de España...</p>
                 </div>
             </div>
         </section>
+
         <section id="contacto">
-            <h2 style="color: #4CAF50;">Contacto</h2>
-            <p>Para más información, por favor contáctenos en <a href="mailto:info@agenda2030.org">info@agenda2030.org</a>.</p>
+            <h2>Contacto</h2>
+            <p>Para más información, contáctenos en <a href="mailto:info@agenda2030.org">info@agenda2030.org</a>.</p>
         </section>
     </main>
-    <footer style="background-color: #4CAF50; color: white; text-align: center; padding: 1em;">
+
+    <footer class="footer">
         <p>&copy; 2025 Agenda 2030</p>
     </footer>
+
     <script src="scripts/app.js"></script>
 </body>
 </html>
