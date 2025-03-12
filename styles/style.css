@@ -15,7 +15,7 @@ body {
 
 /* Header */
 .header {
-    background-color: #4CAF50;
+    background-color: #1498f0;
     color: white;
     padding: 1em;
     text-align: center;
@@ -44,7 +44,7 @@ body {
 }
 
 .nav-list a:hover {
-    background-color: #45a049;
+    background-color: #1498f0;
 }
 
 /* Main content */
@@ -65,6 +65,7 @@ section {
 .objective-list li {
     padding: 8px 0;
 }
+
 /* Estilo para las imágenes */
 .image-container {
     text-align: center;
@@ -76,6 +77,30 @@ section {
     max-width: 800px; /* Limita el tamaño máximo de la imagen */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para los enlaces de los objetivos */
+.marine-link {
+    text-decoration: none;
+    color: #1498f0; /* Un color azul similar al del header */
+    font-weight: 500;
+    font-size: 18px;
+    padding: 8px 15px;
+    border: 2px solid #1498f0;
+    border-radius: 5px;
+    transition: all 0.3s ease; /* Transición suave para el efecto hover */
+    display: inline-block; /* Asegura que el padding se aplique correctamente */
+}
+
+.marine-link:hover {
+    background-color: #1498f0; /* Cambia el fondo al azul cuando el enlace está activo */
+    color: white; /* Cambia el color del texto a blanco */
+    transform: translateY(-3px); /* Agrega un efecto de desplazamiento para hacerlo más interactivo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añade una sombra para darle un efecto de elevación */
+}
+
+.marine-link:active {
+    transform: translateY(0); /* Vuelve al estado normal cuando el enlace es clicado */
 }
 
 .marine-image + p {
@@ -108,7 +133,7 @@ section {
 
 /* Estilos para el footer */
 .footer {
-    background-color: #4CAF50;
+    background-color: #1498f0;
     color: white;
     padding: 40px 20px;
     text-align: left;
@@ -220,10 +245,7 @@ section {
     .marine-life h3 {
         font-size: 1.2em;
     }
-}
 
-/* Responsividad */
-@media (max-width: 768px) {
     .nav-list {
         flex-direction: column;
     }
